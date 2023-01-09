@@ -1,0 +1,53 @@
+.ser-sec{
+    position: absolute;
+    width: 344px;
+
+height: 52px;
+left: 562px;
+top: 1130px;
+align-items: center;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 52px;
+/* identical to box height, or 130% */
+
+letter-spacing: -0.01em;
+
+/* Text color */
+
+color: #001F27;
+
+}
+
+.img1{
+    position: absolute;
+   width: 381px;
+    height: 487px;
+    left: -433px;
+    top: 143px;
+    
+    background: url(./IMG/1.png);
+}
+.img2{
+    position: relative;
+    width: 381px;
+    height: 487px;
+    left: -24px;
+    top: 89px;
+    
+    background: url(./IMG/2.png);
+}
+
+.img3{
+    position: absolute;
+    width: 381px;
+    height: 487px;
+    left: 386px;
+    top: 136px;
+    
+    background-repeat: no-repeat;
+    background: url(./IMG/3.png);
+}
+

@@ -1,0 +1,75 @@
+.card{
+    /* display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 24px 15px;
+gap: 10px; */
+display: flex;
+    flex-direction: column;
+
+align-items: center;
+/* justify-content: center; */
+flex-wrap: wrap;
+color: #FFFFFF;
+font-size: 32px;
+    margin-bottom: 30px;
+position: relative;
+width: 205px;
+height: 96px;
+left: 398px;
+top: 50px;
+z-index: 1;
+background: #3A3636;
+border-radius: 12px;
+}
+.card>:nth-child(1){
+    position: relative;
+    top: 7px;
+    width: 84px;
+height: 48px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 48px;
+/* identical to box height, or 150% */
+
+letter-spacing: -0.01em;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+.card>:nth-child(2){
+   
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height, or 150% */
+    top: 30px;
+    letter-spacing: -0.01em;
+    
+    color: #FFFFFF;
+    
+    
+   
+}
+span::after{
+    content:attr(data-text);
+	color: #139980;
+	transform:translateX(-100%);
+	position:absolute;
+  
+}

@@ -1,0 +1,65 @@
+.su-details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+ 
+    position: absolute;
+width: 380px;
+height: 143px;
+left: -433px;
+top: 486px;
+
+background: linear-gradient(180deg, rgba(196, 196, 196, 0) -14.34%, #C4C4C4 116.43%);
+backdrop-filter: blur(32.5px);
+}
+.su-box{
+   
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-content: flex-end;
+    position: relative;
+    width: 271px;
+    height: 78px;
+    left: -24px;
+}
+
+.su-box :nth-child(1){
+    font-family: 'Poppins';
+    display: flex;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height, or 120% */
+
+letter-spacing: -0.01em;
+position: relative;
+top: -16px;
+color: #00D2FF;
+
+text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+}
+
+.su-box :nth-child(2){
+    text-align: left;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    /* or 131% */
+    
+    letter-spacing: -0.01em;
+    font-feature-settings: 'liga';
+/* identical to box height, or 120% */
+
+letter-spacing: -0.01em;
+position: relative;
+top: -16px;
+color: #FFFFFF;
+
+text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+}

@@ -1,0 +1,64 @@
+
+.i-button{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+    
+    width: 423px;
+    height: 54px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.i-b1{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 15px 32px;
+gap: 10px;
+
+width: 164px;
+height: 54px;
+
+background: #FF736A;
+border-radius: 80px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+text-align: center;
+letter-spacing: -0.01em;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+}

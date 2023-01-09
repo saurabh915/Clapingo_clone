@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding:0;
+   
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 1519px;
+    color: #060606;
+    font-weight: 500;
+font-size: 18px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    
+    background: rgba(255, 255, 255, 0.85);
+    box-shadow: 0px 2px 22px rgba(82, 164, 154, 0.08), inset 0px -1px 0px rgba(0, 0, 0, 0.06);
+    backdrop-filter: blur(10px);
+}
+
+.n-list{
+    flex: 10;
+  
+}
+.n-list>ul{
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+    cursor: pointer;
+}
+
+.n-list>ul>li:hover{
+    cursor: pointer;
+    color: var(--orange);
+}
+img{
+    position: absolute;
+width: 153px;
+height: 42px;
+right: 1243px;
+top: 24px;
+
+background: url(./IMG/clapingoLogo.png);
+}
+
