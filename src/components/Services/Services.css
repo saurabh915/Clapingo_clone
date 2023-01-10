@@ -43,3 +43,14 @@ color: #001F27;
     background: url(./IMG/3.png);
 }
 
+.i1{
+    position: relative;
+    right: 408px;
+    
+    top: -53px;
+}
+.i3{
+    position: relative;
+    left: 412px;
+    bottom: 559px;
+}
