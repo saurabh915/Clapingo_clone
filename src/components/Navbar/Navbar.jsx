@@ -1,7 +1,7 @@
 import React from "react";
-import {Link} from 'react-scroll'
-import './Navbar.css'
-import img from './IMG/clapingoLogo.png'
+import { Link } from "react-scroll";
+import "./Navbar.css";
+import img from "./IMG/clapingoLogo.png";
 import Login from "../Login/Login";
 
 // import  "./img/clapingoLogo.png"
@@ -9,10 +9,9 @@ import Login from "../Login/Login";
 function Navbar() {
   return (
     <>
-      <div className="header">
-      <div className="left">
-            <img src={img} />
-            
+      <nav className="header">
+        <div className="left">
+          <img src={img} />
         </div>
         <div className="n-list">
           <ul>
@@ -48,13 +47,13 @@ function Navbar() {
             >
               <li>Kids</li>
             </Link>
-            
           </ul>
-        
         </div>
-        
-        <a href="/login"><Login/></a>
-      </div>
+
+        <a href="/login">
+          <Login />
+        </a>
+      </nav>
     </>
   );
 }

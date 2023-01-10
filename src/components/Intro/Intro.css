@@ -47,16 +47,13 @@ top: 56px;
     width: 687px;
     height: 284px;
 
-    flex: none;
-order: 0;
-flex-grow: 0;
 }
 
 .i-name>:nth-child(1){
-    width: 568px;
+    width: 666px;
     height: 204px;
     
-    font-family: 'Poppins';
+   
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
@@ -68,18 +65,14 @@ flex-grow: 0;
     
     color: #001F27;
 
-    /* Inside auto layout */
 
-flex: none;
-order: 0;
-flex-grow: 0;
     
 }
 .i-name>:nth-child(2){
-    width: 478px;
+    width: 560px;
 height: 56px;
 
-font-family: 'Poppins';
+
 font-style: normal;
 font-weight: 500;
 font-size: 18px;
@@ -93,11 +86,7 @@ font-feature-settings: 'liga' off;
 
 color: #001F27;
 
-/* Inside auto layout */
 
-flex: none;
-order: 1;
-flex-grow: 0;
 }
 
 
@@ -111,93 +100,23 @@ flex-grow: 0;
     width: 423px;
     height: 54px;
     
-    
-    /* Inside auto layout */
-    
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+  
 }
 
-.i-b1{
-    display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 15px 32px;
-gap: 10px;
-border: none;
-width: 164px;
-height: 54px;
-
-background: #FF736A;
-border-radius: 80px;
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-
-
-
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 24px;
-/* identical to box height, or 133% */
-
-text-align: center;
-letter-spacing: -0.01em;
-
-color: #FFFFFF;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-
-
-
-}
 
 .i-b2{
-    box-sizing: border-box;
-
-/* Auto layout */
-
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
 padding: 15px 32px;
 gap: 10px;
-
 width: 229px;
 height: 54px;
-
 border: 2px solid #FF736A;
 border-radius: 80px;
-
-
-font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
 font-size: 18px;
 line-height: 24px;
-/* identical to box height, or 133% */
-
 text-align: center;
 letter-spacing: -0.01em;
-
 color: #FF736A;
-/* Inside auto layout */
 
-flex: none;
-order: 1;
-flex-grow: 0;
 }

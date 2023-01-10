@@ -1,17 +1,14 @@
-import React from 'react'
-import './Card.css'
+import React from "react";
+import "./Card.css";
 function Card(props) {
-  return (<>
-    <div className="card">
-       
-<span  data-text="+" >{props.num}</span>
-<span>{props.detail}</span>
-
-
-    </div>
-  
+  return (
+    <>
+      <div className="card">
+        <span data-text="+">{props.num}</span>
+        <span>{props.detail}</span>
+      </div>
     </>
-  )
+  );
 }
 
-export default Card
+export default Card;

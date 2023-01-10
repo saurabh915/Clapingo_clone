@@ -41,7 +41,7 @@ function Stats() {
           
           </div>
          
-        <button className='s-b1'>Book a trial</button>
+        <Button head = "Book a trial"/>
        
 
         

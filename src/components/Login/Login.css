@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 .login{
     display: flex;
@@ -11,17 +11,14 @@
     position: absolute;
     width: 126px;
     height: 48px;
-    right: 120px;
     top: 21px;
-    
-    /* Gradient 1 */
-    
+    right: 215px;
     background: linear-gradient(360deg, #52A49A -65.93%, #00CDAC 100%);
     border-radius: 80px;
 }
 
 .l-img{
-    position: absolute;
+position: absolute;
 width: 24px;
 height: 24px;
 left: 22px;
@@ -33,17 +30,14 @@ background: url(./IMG/frame.png);
 width: 48px;
 height: 24px;
 position: relative;
-    left: 16px;
+left: 16px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
 font-size: 18px;
 line-height: 24px;
-/* identical to box height, or 133% */
-
 text-align: center;
 letter-spacing: -0.01em;
-
 color: #FFFFFF;
 }
 
