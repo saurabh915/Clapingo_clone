@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-scroll";
+import {Link,useLocation,useNavigate} from 'react-router-dom'
 import "./Navbar.css";
 import img from "./IMG/clapingoLogo.png";
 import Login from "../Login/Login";
@@ -7,52 +7,43 @@ import Login from "../Login/Login";
 // import  "./img/clapingoLogo.png"
 
 function Navbar() {
+  let navigate = useNavigate();
+  const handlelogout = ()=>{
+    localStorage.removeItem('data');
+    navigate('/login');
+
+  } 
   return (
     <>
       <nav className="header">
         <div className="left">
-          <img src={img} />
+         <a href="/"><img src={img} /></a> 
         </div>
         <div className="n-list">
           <ul>
-            <Link
-              spy={true}
-              to="Navbar"
-              smooth={true}
-              activeClass="activeClass"
-            >
+         
               <li>Plans & Pricing</li>
-            </Link>
-            <Link
-              spy={true}
-              to="Services"
-              smooth={true}
-              activeClass="activeClass"
-            >
+           
+           
               <li>Teach with us</li>
-            </Link>
-            <Link
-              spy={true}
-              to="Experience"
-              smooth={true}
-              activeClass="activeClass"
-            >
+           
+         
               <li>Affiliate Program</li>
-            </Link>
-            <Link
-              spy={true}
-              to="Portfolio"
-              smooth={true}
-              activeClass="activeClass"
-            >
+        
+           
               <li>Kids</li>
-            </Link>
+           
           </ul>
         </div>
-
+        {!localStorage.getItem('data')?
         <a href="/login">
-          <Login />
+          <Login h ="Login" />
         </a>
+          
+
+          // : <button onClick={handlelogout}className = "btn btn-primary">Logout</button>} 
+          : <div onClick={handlelogout}><Login h ="Logout"  /></div>}
+      
       </nav>
     </>
   );

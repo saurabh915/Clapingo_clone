@@ -1,0 +1,9 @@
+.welcome{
+    position: relative;
+    display: flex;
+    top: 109px;
+    
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 800;
+}

@@ -2,11 +2,11 @@ import React from "react";
 import "./Login.css";
 
 function handleClick(params) {}
-function Login() {
+function Login(props) {
   return (
     <button className="login" onClick={handleClick}>
       <div className="l-img"></div>
-      <span>Login</span>
+      <span>{props.h}</span>
     </button>
   );
 }

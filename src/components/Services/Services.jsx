@@ -4,8 +4,7 @@ import './IMG/1.png'
 import './IMG/2.png'
 import './IMG/3.png'
 import Details from './Details/Details'
-import Detailsu from './Details/Detailsu'
-import Detailsd from './Details/Detailsd'
+
 function Services() {
   return (
   <div className="ser-sec">

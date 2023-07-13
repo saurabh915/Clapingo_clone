@@ -105,7 +105,7 @@ color: #001F27;
 
 
 .i-b2{
-padding: 15px 32px;
+padding: 15px 20px;
 gap: 10px;
 width: 229px;
 height: 54px;
@@ -118,5 +118,5 @@ line-height: 24px;
 text-align: center;
 letter-spacing: -0.01em;
 color: #FF736A;
-
+width: 239px;
 }

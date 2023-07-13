@@ -1,7 +1,20 @@
-import React from "react";
+import React ,{useEffect}from "react";
+import {useNavigate} from 'react-router-dom';
 import Button from "./Button";
 import "./Intro.css";
 function Intro() {
+   let navigate = useNavigate();
+   useEffect(() => {
+   
+     if(!localStorage.getItem('data') )
+     {
+      
+      navigate("/login");
+
+  }
+  
+    // eslint-disable-next-line
+  }, [])
   return (
     <div className="intro">
       <div className="i-right"></div>
